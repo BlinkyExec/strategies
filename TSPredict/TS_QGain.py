@@ -47,7 +47,7 @@ class TS_QGain(TSPredict):
     single_col_prediction = True
     detrend_data = True
 
-    forecaster_type = Forecasters.ForecasterType.PAC
+    forecaster_type = Forecasters.ForecasterType.PA #PAC
 
     def add_strategy_indicators(self, dataframe):
         return dataframe

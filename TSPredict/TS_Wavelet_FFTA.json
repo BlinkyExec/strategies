@@ -1,0 +1,43 @@
+{
+  "strategy_name": "TS_Wavelet_FFTA",
+  "params": {
+    "roi": {
+      "0": 0.04,
+      "100": 0.02
+    },
+    "stoploss": {
+      "stoploss": -0.1
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 5
+    },
+    "buy": {
+      "cexit_min_profit_th": 0.3,
+      "cexit_profit_nstd": 2.1,
+      "enable_bb_check": false,
+      "enable_guard_metric": true,
+      "enable_squeeze": false,
+      "entry_bb_factor": 1.13,
+      "entry_bb_width": 0.032,
+      "entry_guard_metric": 0.0
+    },
+    "sell": {
+      "enable_exit_signal": false,
+      "cexit_loss_nstd": 2.2,
+      "cexit_metric_overbought": 0.88,
+      "cexit_metric_take_profit": 0.9,
+      "cexit_min_loss_th": 0.0,
+      "exit_bb_factor": 0.78,
+      "exit_guard_metric": 0.1
+    },
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2024-05-13 17:55:11.246154+00:00"
+}

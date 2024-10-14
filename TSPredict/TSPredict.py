@@ -272,7 +272,7 @@ class TSPredict(IStrategy):
     cexit_metric_take_profit = DecimalParameter(
         0.55, 0.99, default=0.76, decimals=2, space="sell", load=True, optimize=True
     )
-
+    
     ###################################
 
     def bot_start(self, **kwargs) -> None:
